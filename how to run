@@ -1,0 +1,21 @@
+🚀 How to Run (5 Minutes)
+1. Final Setup
+bash
+# Ensure all folders exist
+mkdir data static templates
+touch data/mock_crm.json data/sales_calls.json
+  
+2. Copy all code files above into their respective locations
+
+3. Run the Application
+bash
+# Activate environment
+venv\Scripts\activate  # Windows
+# or
+source venv/bin/activate  # Mac/Linux
+
+# Run Flask app
+python app.py
+
+4. Open in Browser
+http://localhost:5000
