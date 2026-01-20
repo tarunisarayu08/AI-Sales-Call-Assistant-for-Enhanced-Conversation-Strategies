@@ -1,0 +1,23 @@
+
+****************************************** STRUCTURE ***********************************
+ales-ai-assistant/
+├── README.md
+├── requirements.txt
+├── .env
+├── app.py                 # Main Flask app
+├── audio_processor.py     # Speech analysis & sentiment
+├── crm_recommendations.py # Product recommendations
+├── prompt_generator.py    # Question/objection handler
+├── post_call_summary.py   # Summary generator
+├── static/
+│   └── index.html         # Web interface
+├── templates/
+│   └── dashboard.html
+├── data/
+│   ├── mock_crm.json      # Sample CRM data
+│   └── sales_calls.json   # Call logs
+└── utils.py              # Helper functions
+
+
+
+
