@@ -1,0 +1,35 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Rajesh Kumar",
+      "company": "TechCorp India",
+      "industry": "IT Services",
+      "budget": 50000,
+      "past_purchases": ["Cloud VPS"],
+      "preferences": ["Scalable solutions"]
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma", 
+      "company": "ECommerce Ltd",
+      "industry": "Retail",
+      "budget": 25000,
+      "past_purchases": ["Payment Gateway"]
+    }
+  ],
+  "products": [
+    {
+      "name": "Cloud VPS Pro",
+      "price": 15000,
+      "features": ["Scalable", "99.9% uptime"],
+      "suitable_for": ["IT Services", "Enterprise"]
+    },
+    {
+      "name": "Payment Gateway",
+      "price": 8000,
+      "features": ["Easy integration", "Low fees"],
+      "suitable_for": ["Retail", "ECommerce"]
+    }
+  ]
+}
