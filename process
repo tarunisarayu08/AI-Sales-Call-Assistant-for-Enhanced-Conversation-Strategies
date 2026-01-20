@@ -1,0 +1,38 @@
+******************************************* PROCESS*******************************************
+1. Create Project Folder & VS Code Setup
+# 1. Create folder
+mkdir sales-ai-assistant
+cd sales-ai-assistant
+
+# 2. Open in VS Code
+code .
+2. Install Python Extensions in VS Code
+Install Python extension by Microsoft
+
+Install Python Docstring Generator
+3. Create Virtual Environment
+# Terminal in VS Code (Ctrl+`)
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (Mac/Linux)
+source venv/bin/activate
+4. Install FREE Dependencies
+Create requirements.txt:
+flask==2.3.3
+flask-cors==4.0.0
+SpeechRecognition==3.10.0
+pyaudio==0.2.11
+transformers==4.35.0
+torch==2.1.0
+sentence-transformers==2.2.2
+numpy==1.24.3
+pandas==2.0.3
+openai==0.28.1
+python-dotenv==1.0.0
+requests==2.31.0
+
+Install:
+pip install -r requirements.txt
